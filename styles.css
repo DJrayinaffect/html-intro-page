@@ -10,7 +10,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.container {
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: rgba(180, 180, 180, 0.45);
+  z-index: -1;
+}.container {
   max-width: 900px;
   margin: 0 auto;
   background: rgba(255, 255, 255, 0.92);
