@@ -4,8 +4,7 @@ body {
   line-height: 1.6;
 
   /* BACKGROUND IMAGE */
-  background-image: url("DJR.png");
-  background-size: cover;
+  background-image: url("https://djrayinaffect.github.io/html-intro-page/DJR.png");  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
