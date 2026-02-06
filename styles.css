@@ -24,7 +24,10 @@ body::before {
   border-radius: 18px;
   box-shadow: 0 14px 40px rgba(0, 0, 0, 0.35);
 }
-
+p, li {
+  color: #222;
+  font-weight: 400;
+}
 h1 {
   color: #1f4b99;
   margin-top: 0;
